@@ -1,0 +1,65 @@
+.weather-main {
+    margin-left: 101px;
+    margin-right: 75px;
+    max-height: 266px;
+    display: flex;
+    justify-content: center;
+    margin-top: 184px;
+    @media (max-width: 675px) {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 135px;
+        max-height: 200px;
+    }
+    &__temperature {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        color: #fff;
+        &-top {
+            max-width: 520px;
+            display: flex;
+            align-items: center;
+        }
+        &-image {
+            position: relative;
+            left: -25px;
+            max-width: 185px;
+            @media (max-width: 675px) {
+                max-width: 100px;
+                max-height: 100px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &-number {
+            position: relative;
+            top: 11px;
+            left: -5px;
+            max-width: 275px;
+            font-size: 180px;
+            @media (max-width: 675px) {
+                font-size: 90px;
+                font-family: 'PTSans', sans-serif;
+            }
+        }
+       &-description {
+            margin-top: 2px;
+            font-size: 25px;
+            padding-right: 51px;
+            letter-spacing: 1px;
+            @media (max-width: 675px) {
+                margin-left: -2px;
+                margin-top: 18px;
+                font-size: 18px;
+                padding-right: 10px;
+                font-family: 'PTSans', sans-serif;
+            }
+       }
+    }
+}
+
+

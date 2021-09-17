@@ -1,0 +1,51 @@
+.weather-bottom {
+    margin: 235px 185px 0px 101px;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    @media (max-width: 675px) {
+        margin: 140px 0px 0px 21px;
+    }
+    &__wind {
+        margin-right: 127px;
+        width: 185px;
+    } 
+    &__pressure {
+        margin-right: 159px;
+        width: 159px;
+    } 
+    &__humidity {
+        margin-right: 192px;
+        width: 92px;
+
+    } 
+    &__rain-probability {
+        width: 166px;
+    }
+    &__wind, &__pressure, &__humidity, &__rain-probability {
+        max-height: 62px;
+        @media (max-width:675px) {
+            margin-right: 0;
+            flex: 1 0 calc(50% - 21px);
+            &:nth-child(n+3) { 
+                margin-top: 35px;
+            }
+        }
+        &-title {
+            font-size: 18px;
+            color: rgba(#fff, .6);
+            @media (max-width: 675px) {
+                font-size: 15px;
+            }
+        }
+        &-value {
+            margin-top: 10px;
+            font-size: 25px;
+            color: #fff;
+            @media (max-width: 675px) {
+                margin-top: 0;
+                font-size: 18px;
+            }
+        }
+    }
+}
