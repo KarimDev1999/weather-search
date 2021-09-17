@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/weather-search/static/css/main.ae8a4c7b.chunk.css",
+    "main.js": "/weather-search/static/js/main.33ae3401.chunk.js",
+    "main.js.map": "/weather-search/static/js/main.33ae3401.chunk.js.map",
+    "runtime-main.js": "/weather-search/static/js/runtime-main.ea64600d.js",
+    "runtime-main.js.map": "/weather-search/static/js/runtime-main.ea64600d.js.map",
+    "static/js/2.04b59f91.chunk.js": "/weather-search/static/js/2.04b59f91.chunk.js",
+    "static/js/2.04b59f91.chunk.js.map": "/weather-search/static/js/2.04b59f91.chunk.js.map",
+    "index.html": "/weather-search/index.html",
+    "static/css/main.ae8a4c7b.chunk.css.map": "/weather-search/static/css/main.ae8a4c7b.chunk.css.map",
+    "static/js/2.04b59f91.chunk.js.LICENSE.txt": "/weather-search/static/js/2.04b59f91.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/weather-search/static/media/location.a7667b22.svg",
+    "static/media/cloud.537bf324.svg": "/weather-search/static/media/cloud.537bf324.svg",
+    "static/media/partly cloudy.bd05e8ee.svg": "/weather-search/static/media/partly cloudy.bd05e8ee.svg",
+    "static/media/rain.0b103200.svg": "/weather-search/static/media/rain.0b103200.svg",
+    "static/media/strom.8596a268.svg": "/weather-search/static/media/strom.8596a268.svg",
+    "static/media/sun.5f4a8e48.svg": "/weather-search/static/media/sun.5f4a8e48.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea64600d.js",
+    "static/js/2.04b59f91.chunk.js",
+    "static/css/main.ae8a4c7b.chunk.css",
+    "static/js/main.33ae3401.chunk.js"
+  ]
+}
